@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+    color: blue;
+}
+
+#one {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 12px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    margin: 20px;
+    background-color:gray
+    
+
+}
+#oneA {
+    text-align: center;
+    text-decoration-thickness: 6px;
+    padding: 20px;
+    background-color: red;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#two {
+    text-align: left;
+}
+#class1 {
+    font-size: small;
+}
+a { 
+    color: Green;
+}
+a:hover {
+color: red;
+    font-weight: bold;
+}      

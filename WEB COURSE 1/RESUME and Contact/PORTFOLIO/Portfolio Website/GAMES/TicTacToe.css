@@ -1,0 +1,22 @@
+.container {
+    display: flex;           /* makes the container a flex container */
+    flex-direction: column  ;  /* stack the rows vertically */
+    align-items: center;     /* center rows horizontally */
+}
+
+.row {
+    display: flex;           /*makes each row a flex row*/
+             
+}
+
+.row div {
+    padding: 10px;
+    border: 32px solid purple;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+body {
+    text-align: center;
+    background-color: lightblue;
+}
