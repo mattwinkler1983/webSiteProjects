@@ -1,6 +1,6 @@
 .container {
     display: flex;           /* makes the container a flex container */
-    flex-direction: column  ;  /* stack the rows vertically */
+    flex-direction: column;  /* stack the rows vertically */
     align-items: center;     /* center rows horizontally */
 }
 
@@ -11,9 +11,9 @@
 
 .row div {
     padding: 10px;
-    border: 32px solid purple;
-    height: 200px;
-    width: 200px;
+    border: 16px solid purple;
+    height: 100px;
+    width: 100px;
     float: left;
 }
 body {
