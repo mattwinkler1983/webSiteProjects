@@ -7,3 +7,5 @@ btnEl.addEventListener("mouseover", (event)=>{
     btnEl.style.setProperty("--xPos", x + "px") 
     btnEl.style.setProperty("--yPos", y+ "px")
 });
+
+// note:  A mistake I made was to have     btnEl.style.setProperty("--yPos", y+ "py") and it was supposed to be "px"
