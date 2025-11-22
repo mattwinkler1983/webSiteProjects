@@ -2,6 +2,7 @@
     display: flex;           /* makes the container a flex container */
     flex-direction: column;  /* stack the rows vertically */
     align-items: center;     /* center rows horizontally */
+    font-size: 100px;
 }
 
 .row {
