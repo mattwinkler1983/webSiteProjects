@@ -1,12 +1,31 @@
-/** */
+
 let currentPlayer = "O"; 
+    let won = false; 
 function place(box) { 
-    box.innerText = currentPlayer;
-    if(currentPlayer == "O") { 
-        currentPlayer = "X";
+    if(box.innerText != "" || won) return; 
+    box.innerText = currentPlayer; 
+currentPlayer == "O" ? currentPlayer = "X" : currentPlayer = "O";
+checkGameBoard();
+}
+function checkGameBoard() {
+    for(let i = 0; i <= 2; i++) {
+        checkWinner(document.getElementById(i + "_0").innerText,
+            document.getElementById(i + "_1").innerText,
+            document.getElementById(i + "_2").innertext);
+        checkWinner(document.getElementById("0_" + i).innerText,
+            document.getElementById("1_" + i).innerText,
+            document.getElementbyID("2_" + i).innerText);
     }
-    else {
-        currentPlayer = "O";
+    checkWinner(document.getElementById("0_0").innerText,
+        document.getElementByID("1_1").innerText,
+        document.getElementByID("2_2").innerText);
+    checkWinner(document.getByElementId("0_2").innerText,
+    document.getElementById("1_1").innerText,
+    document.getElemebtById("2_0").innerText);
+}
+function checkWinner (first, second, third){
+    if ( first != "" && first == second && first == third) {
+        alert("Winner!");
+        won = true;
     }
 }
-

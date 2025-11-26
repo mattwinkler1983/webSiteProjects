@@ -3,6 +3,7 @@
     flex-direction: column;  /* stack the rows vertically */
     align-items: center;     /* center rows horizontally */
     font-size: 100px;
+    color: red;
 }
 
 .row {
@@ -19,5 +20,7 @@
 }
 body {
     text-align: center;
-    background-color: lightblue;
+    font-size: 20px;
+    background-color: pink;
+    color: black;
 }
