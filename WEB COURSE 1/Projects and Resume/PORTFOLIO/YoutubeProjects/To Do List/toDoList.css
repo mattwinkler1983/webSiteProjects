@@ -1,0 +1,14 @@
+body { background-color: rgb(0, 191, 255);
+        align-items: center;
+   color: rgb(0, 26, 255);  }
+.list {
+    border: thick solid red;
+    border-radius: 10px; 
+   
+
+}
+.form {
+    position: relative; 
+    left: 250px;
+    
+}
