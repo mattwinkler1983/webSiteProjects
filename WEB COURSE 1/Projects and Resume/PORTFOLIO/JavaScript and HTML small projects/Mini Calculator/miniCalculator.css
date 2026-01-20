@@ -1,3 +1,7 @@
+h1{
+    text-align: center;
+    
+}
 body {
     background-color: cyan;
     font-size: 30px;
@@ -10,13 +14,15 @@ body {
     font-size: 20px;
     font-weight: bold;
     margin: 2px;
+    
+    
+}
+#buttons-calculator > div {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 2px;
 }
 #calculator {
-    font-size: 20px; 
-
-    text-align: center;
-}
-#calculator input {
     width: 216px;       /* match total button row width */
     height: 50px;       /* same as buttons */
     font-size: 20px;
