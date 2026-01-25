@@ -8,3 +8,9 @@ p {
     color: red;
     font-weight: bold; 
 }
+#generateBtn {
+    background-color: cyan;
+    color: red;
+    font-size: 25px;  
+    font-weight: bold; 
+}
