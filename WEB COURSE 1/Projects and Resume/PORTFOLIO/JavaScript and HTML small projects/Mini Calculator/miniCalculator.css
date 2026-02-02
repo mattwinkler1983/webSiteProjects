@@ -1,20 +1,21 @@
 h1{
     text-align: center;
+    color: rgb(43, 255, 0)
     
 }
 body {
-    background-color: cyan;
+    background-color: rgba(0, 0, 0, 0.733);
     font-size: 30px;
 }
 
 #buttons-calculator button { 
-    background-color: pink;
-    width: 50px;
+    background-color: grey;
+    width: 60px;
     height: 50px;
     font-size: 20px;
     font-weight: bold;
     margin: 2px;
-    
+    color: rgb(43, 255, 0)
     
 }
 #buttons-calculator > div {
@@ -23,7 +24,7 @@ body {
     margin-bottom: 2px;
 }
 #calculator {
-    width: 216px;       /* match total button row width */
+    width: 250px;       /* match total button row width */
     height: 50px;       /* same as buttons */
     font-size: 20px;
     margin-bottom: 5px; /* spacing from buttons */
