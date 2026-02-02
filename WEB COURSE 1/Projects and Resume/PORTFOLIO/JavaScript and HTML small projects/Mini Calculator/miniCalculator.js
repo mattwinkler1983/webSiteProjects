@@ -10,7 +10,7 @@ keys.forEach(key => {
             display.value = "";
 
         // DELETE
-        } else if (key.textContent === "DL") {
+        } else if (key.textContent === "DEL") {
             display.value = display.value.slice(0, -1);
 
         // EQUALS
