@@ -38,12 +38,15 @@ async function getWeatherData(cityValue) {
       weatherDataEl.querySelector(".description").textContent = description;
         
       weatherDataEl.querySelector(".details").innerHTML = details.map(detail => `<div>${detail}</div>`).join("")
-      
+
     } catch (error) {
-      weatherDataEl.innerHTML = `
-        <div class="error">
-          <p>Failed to fetch weather data. Please try again.</p>
-        </div>
-      `
+      weatherDataEl.querySelector(".icon").innerHTML = "" ;
+
+      weatherDataEl.querySelector(".temperature").textContent = "";
+
+      weatherDataEl.querySelector(".description").textContent = "An error occurred. Please try again.";
+        
+      weatherDataEl.querySelector(".details").innerHTML = "";
+      
     }
 }
