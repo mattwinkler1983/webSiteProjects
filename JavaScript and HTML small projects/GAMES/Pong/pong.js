@@ -14,6 +14,12 @@ let player1 = {
     width : playerWidth,
     height : playerHeight,
 }
+let player2 = {
+    x : boardWidth - playerWidth - 10,
+    y : boardHeight/2,
+    width : playerWidth,
+    height : playerHeight,
+}
 
 window.onload = function() {
     board = document.querySelector("#board");
@@ -25,5 +31,15 @@ window.onload = function() {
     context.fillStyle = "skyblue";
     context.fillRect(player1.x, player1.y, player1.width, player1.height);
 
+    this.requestAnimationFrame(update);
 }
     
+function update () {
+    requestAnimationFrame(update); 
+    //player 1
+    context.fillStyle = "skyblue";
+    context.fillRect(player1.x, player1.y, player1.width, player1.height);
+
+    //player 2
+    context.fillRect(player2.x, player2.y, player2.width, player2.height );
+}
